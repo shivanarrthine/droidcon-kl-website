@@ -1,0 +1,26 @@
+
+@import "base.less";
+
+a.btn{
+	background: @gray;
+	padding: 10px 25px;
+	color: @white;
+	font-size: 15pt;
+	.radius(5px);
+	cursor: pointer;
+
+	&:hover{
+		background: @darkgray;
+		text-decoration: none;
+	}
+
+	// primary button
+	&.btn-primary{
+		background: @green;
+
+		&:hover{
+			background: #00796B;
+		}
+	}
+
+}

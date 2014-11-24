@@ -1,0 +1,59 @@
+
+@blue: #2196F3;
+@pink: #E91E63;
+@lightgreen: #A4C739;
+@green: #009688;
+@yellow: #FFEB3B;
+@white: #fff;
+@black: #000;
+@gray: #9E9E9E;
+@darkgray: #424242;
+
+html, body{
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+body{
+	background: @white;
+	font-family: 'Droid Sans', sans-serif;
+}
+
+// mixins + misc classes
+
+.radius(@rad){
+	border-radius: @rad;
+	-webkit-border-radius: @rad;
+	-moz-border-radius: @rad;
+}
+
+.clear{
+	clear: both;
+}
+
+
+// sections
+
+section{
+	background: @white;
+	padding: 5% 5%;
+	
+	&.full{
+		height: 100%;
+	}
+
+	&.pink{
+		background: @pink;
+	}
+
+}
+
+// blocks
+
+.verticalBlock{
+	width: 90%;
+	margin: 0 auto;
+	padding: 40px 0 20px;
+	text-align: center;
+}
