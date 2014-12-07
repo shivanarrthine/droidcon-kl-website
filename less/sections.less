@@ -1,0 +1,152 @@
+
+
+.topBlock{
+	position: relative;
+	//background: @white;
+	width: 100%;
+	height: 100%;
+
+	.taglineContent{
+		position: absolute;
+		width: 45%;
+		top: 30%;
+		left: 7%;
+	}
+
+	img.andyImage{
+		position: absolute;
+		width: 40%;
+		bottom: 15%;
+		right: 5%;
+	}
+}
+
+.section{
+	background: @white;
+	padding: 5% 5%;
+	box-shadow: 0px -4px 4px rgba(0,0,0,0.4);
+	
+	&.sPink, &.sBlue, &.sPurple, &.sGreen, &.sIndigo{
+		background: @pink;
+		
+		h1, h2, h3, h4, p, a{
+			color: @white;
+		}
+	}
+
+	&.sBlue{
+		background: @blue;
+	}
+
+	&.sPurple{
+		background: @purple;
+	}
+
+	&.sIndigo{
+		background: @indigo;
+	}
+
+	&.sGreen{
+		background: @green;
+	}
+
+	.wrapper{
+		width: 80%;
+		margin: 60px auto 40px;
+	}
+
+}
+
+
+ul.reasonList{
+	width: 80%;
+	margin: 60px auto 40px;
+	text-align: center;
+
+	li{
+		display: inline-block;
+		width: 27%;
+		margin: 0 3%;
+
+		h3{
+			margin-bottom: 20px;
+		}
+	}
+}
+
+ul.topicList{
+	width: 80%;
+	margin: 60px auto 40px;
+	text-align: center;
+
+	li{
+		display: inline-block;
+		width: 25%;
+		margin: 20px 3%;
+
+		img{
+			width: 80px;
+			margin-bottom: 10px;
+			.radius(40px);
+			background: @white;
+		}
+
+		h3{
+			font-weight: 400;
+			font-size: 16pt;
+			line-height: 36px;
+		}
+
+		p{
+			font-style: italic;
+		}
+	}
+}
+
+.addressBlock{
+	float: left;
+	width: 45%;
+	margin: 0 2%;
+	padding: 20px 0;
+
+	p{
+		span{
+			font-weight: 700;
+		}
+	}
+}
+
+.mapBlock{
+	float: right;
+	width: 45%;
+	height: 300px;
+	.radius(3px);
+	margin: 0 2%;
+	background: @white;
+	.shadow;
+}
+
+.ticketsBlock{
+	width: 80%;
+	min-height: 400px;
+	margin: 60px auto 40px;
+	background: @white;
+	.radius(3px);
+	.shadow;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

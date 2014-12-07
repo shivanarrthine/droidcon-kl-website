@@ -1,8 +1,10 @@
 
 @blue: #2196F3;
 @pink: #E91E63;
-@lightgreen: #A4C739;
+@androidgreen: #A4C739;
 @green: #009688;
+@purple: #673AB7;
+@indigo: #3F51B5;
 @yellow: #FFEB3B;
 @white: #fff;
 @black: #000;
@@ -28,32 +30,22 @@ body{
 	-moz-border-radius: @rad;
 }
 
+.shadow{
+	box-shadow: 4px -4px 4px rgba(0,0,0,0.2);
+}
+
 .clear{
 	clear: both;
 }
 
 
-// sections
 
-section{
-	background: @white;
-	padding: 5% 5%;
-	
-	&.full{
-		height: 100%;
-	}
+// footer
 
-	&.pink{
-		background: @pink;
-	}
-
-}
-
-// blocks
-
-.verticalBlock{
-	width: 90%;
-	margin: 0 auto;
-	padding: 40px 0 20px;
+footer{
+	background: darken(@pink, 10%);
+	padding: 10px;
+	color: @white;
+	font-size: 11pt;
 	text-align: center;
 }
