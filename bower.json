@@ -1,0 +1,17 @@
+{
+  "name": "droidconkl-website",
+  "version": "0.0.0",
+  "homepage": "https://github.com/shivanarrthine/droidcon-kl-website",
+  "authors": [
+    "Shiva Narrthine <shivanarrthine@gmail.com>"
+  ],
+  "main": "index.html",
+  "license": "MIT",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
