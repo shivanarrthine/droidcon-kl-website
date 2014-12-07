@@ -44,8 +44,40 @@ body{
 
 footer{
 	background: darken(@pink, 10%);
-	padding: 10px;
+	padding: 10px 10%;
 	color: @white;
 	font-size: 11pt;
 	text-align: center;
+
+	ul.footerNav{
+		margin: 0; 
+		padding: 0;
+		text-align: left;
+		float: left;
+		width: 60%;
+
+		li{
+			display: inline;
+			margin: 0 10px;
+
+			a{
+				color: @white;
+				text-decoration: none;
+
+				&:hover{
+					color: @yellow;
+				}
+			}
+		}
+	}
+
+	p.copyright{
+		text-align: right;
+		float: right;
+		font-size: 11pt;
+		color: @white;
+		width: 30%;
+		margin: 0;
+		line-height: 12px;
+	}
 }

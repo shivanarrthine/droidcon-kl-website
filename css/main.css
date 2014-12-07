@@ -16,10 +16,37 @@ body {
 }
 footer {
   background: #c1134e;
-  padding: 10px;
+  padding: 10px 10%;
   color: #ffffff;
   font-size: 11pt;
   text-align: center;
+}
+footer ul.footerNav {
+  margin: 0;
+  padding: 0;
+  text-align: left;
+  float: left;
+  width: 60%;
+}
+footer ul.footerNav li {
+  display: inline;
+  margin: 0 10px;
+}
+footer ul.footerNav li a {
+  color: #ffffff;
+  text-decoration: none;
+}
+footer ul.footerNav li a:hover {
+  color: #ffeb3b;
+}
+footer p.copyright {
+  text-align: right;
+  float: right;
+  font-size: 11pt;
+  color: #ffffff;
+  width: 30%;
+  margin: 0;
+  line-height: 12px;
 }
 a.btn {
   text-decoration: none;
